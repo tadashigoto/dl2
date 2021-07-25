@@ -1,0 +1,8 @@
+import numpy as np
+W1 = np.random.randn(2,4)
+b1 = np.random.randn(4)
+x = np.random.randn(10,2)
+print('W1:',W1)
+print('b1',b1)
+print('x:',x)
+print(np.dot(x,W1)+b1)
