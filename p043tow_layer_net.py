@@ -1,6 +1,6 @@
 import numpy as np
 from p036sigmoid import Sigmoid
-from p039
+// from p039
 class TwoLayerNet:
     def __init__(self, input_size, hidden_size, output_size):
         I, H, O = input_size, hidden_size, output_size
