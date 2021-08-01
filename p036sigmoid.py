@@ -1,7 +1,7 @@
 import numpy as np
 class Sigmoid:
     def __init__(self):
-        self.params = [], self.grads = [],[]
+        self.params , self.grads = [],[]
     def forward(self, x):
         out = 1 / (1 + np.exp(-x))
         self.out = out

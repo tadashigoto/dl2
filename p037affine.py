@@ -13,7 +13,7 @@ class Affine:
         W, b = self.params
         dx = np.dot(dout, W.T)
         dW = np.dot(self.x.T, dout)
-        db = np.sum(dout, szis=0)
+        db = np.sum(dout, axis=0)
         self.grads[0][...] = dW
         self.grads[1][...] = db
         return dx
