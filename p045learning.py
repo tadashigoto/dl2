@@ -24,7 +24,7 @@ loss_count = 0
 loss_list = []
 
 for epoch in range(max_epoch):
-    idx = np.random.permutation(data_size)
+    idx = np.random.permutation(data_size) pu
     x = x[idx]
     t = t[idx]
     for iters in range(max_iters):
